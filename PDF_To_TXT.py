@@ -18,6 +18,8 @@ def popupmsg(title,msg):
 
 # Percorso dell'eseguibile pdftotext
 pdftotext_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "pdftotext")
+pdftotext_path = './pdftotext'
+# print(pdftotext_path)
 
 # Directory dei file PDF
 directory = "./PDF"
